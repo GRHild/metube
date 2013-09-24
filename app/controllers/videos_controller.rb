@@ -1,5 +1,7 @@
 class VideosController < ApplicationController
   def show_gladiator
+    @title = "Gladiator 'Are you not entertained' Scene"
+    @description = "Russel Crowe is a boss in this video"
   end
 
   def show_air_force_one

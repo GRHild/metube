@@ -13,3 +13,11 @@ end
 Metube::Application.routes.draw do
   get '/videos/modern_family' => 'videos#show_modern_family'
 end
+
+Metube::Application.routes.draw do
+  get '/posts/san_francisco' => 'posts#show_san_francisco'
+end
+
+Metube::Application.routes.draw do
+  get '/posts/austin' => 'posts#show_austin'
+end
